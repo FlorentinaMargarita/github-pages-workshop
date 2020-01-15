@@ -1,14 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>TODO project list</title>
-    </head>
-    <body>
-        <h1>TODO project list</h1>
-        <ul>
-            {% for project in site.projects %}
-            <li><a href="{{site.baseurl}}{{project.url}}">{{project.title}}</a> {% for category in project.categories %}{{category}} {% endfor %}</li>
-            {% endfor %}
-        </ul>
-    </body>
+
+<head>
+    <!-- start head include -->
+    {% include head.html %}
+    <!-- end head include -->
+</head>
+
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <!-- start header include -->
+        {% include header.html %}
+        <!-- end header include -->
+
+        <!-- Features -->
+        <div id="features-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>{{page.title}}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- project for loop starts here -->
+                    {% for project in site.projects %}
+                    <!-- project box starts here -->
+                    <div class="col-4 col-12-medium">
+                        <section class="box feature">
+                            <a href="{{site.baseurl}}{{project.url}}" class="image featured"><img src="{{site.baseurl}}{{page.main_image}}
+                                " alt="Project Image" /></a>
+                            <div class="inner">
+                                <header>
+                                    <h2>{{project.title}}</h2>
+                                    <em>{{% for category in project.categories %}}{{category}}{{% endfor %}}</em>
+                                    <p>{{project.subtitle}}</p>
+                                </header>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- project box ends here -->
+
+                    <!-- project for loop ends here -->
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <!-- start footer include -->
+        {% include footer.html %}
+        <!-- end footer include -->
+    </div>
+</body>
+
 </html>

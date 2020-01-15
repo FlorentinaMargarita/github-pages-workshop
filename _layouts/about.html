@@ -1,12 +1,77 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>TODO about layout</title>
-    </head>
-    <body>
-        <h1>TODO about layout</h1>
-        <p>{{page.title}}</p>
-        <img src="{{site.baseurl}}{{page.main_image}}" alt="Me" />
-        {{content}}
-    </body>
+
+	{% include head.html %}
+
+
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+        <!-- Header -->
+        {% include header.html %}
+        <!-- start header include -->
+        </div>
+        <!-- end header include -->
+
+        <!-- Features -->
+        <div id="features-wrapper">
+            <div class="container">
+                <div class="row">
+                        <p>
+                           {{content}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <!-- start footer include -->
+        <div id="footer-wrapper">
+            <footer id="footer" class="container">
+                <div class="row">
+                    <div class="col-3 col-6-medium col-12-small">
+                        <!-- Contact -->
+                        <section class="widget contact last">
+                            <ul>
+                                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+                                </li>
+                                <li><a href="#" class="icon brands fa-facebook-f"><span
+                                            class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon brands fa-instagram"><span
+                                            class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
+                                </li>
+                                <li><a href="#" class="icon brands fa-pinterest"><span
+                                            class="label">Pinterest</span></a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="copyright">
+                            <ul class="menu">
+                                <li>&copy; TODO Site Owner. All rights reserved</li>
+                                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Scripts -->
+        <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/jquery.dropotron.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/browser.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/breakpoints.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/util.js"></script>
+        <script src="{{site.baseurl}}/assets/js/main.js"></script>
+        <!-- end footer include -->
+</body>
+
 </html>

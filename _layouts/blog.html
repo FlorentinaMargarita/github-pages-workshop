@@ -1,14 +1,66 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>TODO blog list</title>
-    </head>
-    <body>
-        <h1>TODO blog list</h1>
-        <ul>
-            {% for post in site.posts %}
-            <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> {{ post.date | date: '%b %e, %Y' }} {% for category in post.categories %}{{category}} {% endfor %}</li>
-            {% endfor %}
-        </ul>
-    </body>
+
+<head>
+	<!-- start head include -->
+	{% include head.html %}
+	<!-- end head include -->
+</head>
+
+<body class="is-preload homepage">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<!-- start header include -->
+		{% include header.html %}
+		<!-- end header include -->
+
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>{{page.title}}</h2>
+					</div>
+				</div>
+				<div class="row">
+					<!-- blog for loop starts here -->
+					{% for post in site.posts %}
+					<!-- blog box starts here -->
+					<div class="col-12 col-12-medium">
+						<section class="box feature">
+							<a href="{{site.baseurl}}{{post.url}}" class="image featured"><img src="{{site.baseurl}}{{post.main_image}}"
+									alt="Project Image" /></a>
+							<div class="inner">
+								<header>
+									<h2>{{post.title}}</h2>
+									<em>{{ post.date | date: '%b %e, %Y' }}	in {% for category in post.categories %}{{category}} {% endfor %}</em>
+									<p>{{post.subtitle}}</p>
+								</header>
+							</div>
+						</section>
+					</div>
+					<!-- blog box ends here -->
+
+					{{% endfor %}}
+
+			
+					
+					<!-- blog for loop ends here -->
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<!-- start footer include -->
+		{% include footer.html %}
+		<!-- end footer include -->
+	</div>
+
+</body>
+
 </html>
