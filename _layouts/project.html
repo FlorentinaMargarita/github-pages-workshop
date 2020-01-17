@@ -25,9 +25,9 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>{{page.title}}</h2>
-                        <span class="image"><img src="https://via.placeholder.com/1600x1200" class="image fit"
+                        <span class="image"><img src="{{site.baseurl}}{{page.main_image}}" class="image fit"
                                 alt="Main Image" /></span>
-                        <em>Technologies: CATEGORY, CATEGORY, CATEGORY</em>
+                        <em>Technologies: {% for category in page.categories %}{{category}} {% endfor %}</em>
                         <hr/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas lacus dui, at
                             tristique nunc eleifend vitae. Vestibulum ante ipsum primis in faucibus orci luctus et
