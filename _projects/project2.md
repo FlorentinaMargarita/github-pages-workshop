@@ -2,7 +2,7 @@
 layout: project
 title: My Life in Pictures
 subtitle: My Life in CSS
-main_image: /assets/images/Life in Pictures.PNG
+main_image: /assets/images/try1.PNG
 categories: [javascript, css]
 ---
 Go to <https://flotheflower.github.io/Lebenslauf/> to see **my life in pictures**.

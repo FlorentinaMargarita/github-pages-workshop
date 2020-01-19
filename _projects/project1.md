@@ -2,7 +2,7 @@
 layout: project
 title: Search Game
 subtitle: Coding a game.
-main_image: /assets/images/matching game.PNG
+main_image: /assets/images/matching game1.PNG
 categories: [node.js, javascript]
 ---
 Go to <https://flotheflower.github.io/SearchGame> to play my **smiley search game**!  
