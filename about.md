@@ -9,6 +9,8 @@ permalink: /about/
 ## What I do, when I don't code...
 <i> So now that you know what I currently work on, I can tell you some other things about me. </i>
 
+* Code for America: I am active in the San Diego Chapter of Code for America which is called <i> Open San Diego <i>. We meet every Tuesday and discuss new projects for the city. At the moment we work on sustainabilty projects where we use the open source data which are collected by San Diego's Smart City Lights. 
+
 * Theatre: My favourite playwrite of all times is Henrik Ibsen. My favourite contemporary playwrite is Yasmina Reza(She is famous for her works "Art" and "God of Carnage"). My favourite American playwrite contemporary playwrite is Lauren Yee, my favourite all time American playwrite is Arthur Miller. San Diego has many theatres to offer. So far I explored "La Jolla Playhouse" and "Cygnet Theatre" in Old Town.
 
 * Gym: My husband and I love to work out. We try to go to the gym four times a week, if there isn't enough time though, we work out at home. In the warmer season I also love to water ski and currently I am improving my skills in wakeboarding. San Diego is a great place for that! 
