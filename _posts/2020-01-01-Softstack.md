@@ -2,16 +2,16 @@
 layout: blogpost
 title: Softstack
 subtitle: Coding Bootcamp NGO
-date: 2020-01-13 21:22:34 -0800
+date: 2019-12-13 21:22:34 -0800
 main_image: /assets/images/SSF.png
 author: Me
 categories: [learning]
 ---
-## The Meanstack Module at Softstack
 
 In the Meanstack Module, we learned how to build an entire web-app from scratch using the Angular framework for the frontend and Loopback as well as Mongo Atlas for the backend. Accompanying concepts, like higher-order functions or Typescript, were explained and practiced along the way. 
 
-After a month of learning Javascript, HTML, and CSS in Softstack’s Fundamentals Unit, the Meanstack Module dives into the real programming world. Accordingly, it starts with an intro into Github and version control as well as error debugging. From now on, we were supposed to use the CLI to navigate, delete or create folders. The instructors also encouraged us to try to read code. What I mean by that is, they wanted us to google all those lines of code we were unfamiliar with. I won’t lie, that was challenging in the beginning, however one month into the Meanstack Class it was as natural as googling the movie starting times in my favorite theatre. In each unit, we had at least two instructors: The main instructor who led the class and one assistant. 
+## Reading code 
+The Meanstack Module dives into the real programming world. Accordingly, it starts with an intro into Github and version control as well as error debugging. From now on, we were supposed to use the CLI to navigate, delete or create folders. The instructors also encouraged us to try to read code. What I mean by that is, they wanted us to google all those lines of code we were unfamiliar with. I won’t lie, that was challenging in the beginning, however one month into the Meanstack Class it was as natural as googling the movie starting times in my favorite theatre. In each unit, we had at least two instructors: The main instructor who led the class and one assistant. 
 
 ## The instructors
 Some nights there were up to three instructors helping us out. Considering that we had a class size of ten people that was amazing! Whenever we weren’t in class we could get in touch with our instructors via RingCentral Glip (a free alternative to Slack). I never had to wait longer than max an hour for an answer from one of our facilitators, but most times they would answer within ten minutes. Whenever I got stuck, they didn’t give me the complete code for me to copy/paste it, instead, they guided me until I figured it out myself. Apart from the diligent work of the instructors, we were also encouraged to help each other out. Soon we noticed why: Explaining things to others enforces new concepts in the brain. Furthermore, it makes us communicate in the technical language which is required in the Software-Universe. 

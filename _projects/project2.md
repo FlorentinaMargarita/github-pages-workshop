@@ -6,13 +6,10 @@ main_image: /assets/images/matching game1.png
 categories: [node.js, javascript]
 ---
 Go to <https://flotheflower.github.io/SearchGame> to play my **smiley search game**!  
-
-## MY FIRST GAME
-
-The **search game** is the first little game I ever coded.  
+The **search game** is the first game I ever coded.  
 
 
-## Key Takeaways from this Project
+## Key takeaways from this project
 
 1. Generating a random generator using Math.random().
 2. Working with the DOM: appending children and deleting one. 

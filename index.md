@@ -2,11 +2,9 @@
 layout: home
 main_image: /assets/images/startseite.jpg
 ---
-**Welcome to my new website...** ICH HEISSE FLO
+**Welcome to my new website...** 
 
 ## Some Stuff
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ## Some More Stuff
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
