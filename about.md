@@ -7,7 +7,7 @@ permalink: /about/
 
 
 ## What I do, when I don't code...
-*So now that you know what I currently work on, I can tell you some other things about me.*
+*Now that you know some of my programming projects, I can tell you other things about me.*
 
 * Code for America: I am active in the San Diego Chapter of *Code for America* which is called <a href="https://opensandiego.org/"> Open San Diego </a>, where we meet every Tuesday evening for two hours in Downtown. There we discuss and work on community projects for the city. At the moment we work on sustainability projects where we use the open-source data which are collected by <a href="https://www.sandiego.gov/sustainability/energy-and-water-efficiency/programs-projects/smart-city"> San Diego's Smart City Lights </a>. (Okay I admit it: That was code-related again. But the following points, won't be...)
 
