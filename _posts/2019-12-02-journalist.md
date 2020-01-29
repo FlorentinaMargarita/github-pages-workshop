@@ -7,7 +7,7 @@ main_image: /assets/images/Digitale Welt.jpg
 author: Florentina
 categories: [learning]
 ---
-While I was working for the German tech-magazine <a href= "www.digitaleweltmagazin.de"> DIGITALE WELT </a> I learned a lot about new technologies like quantum-computing. However, instead of writing about it, I actually wanted to be one of those people doing the magic and bringing the future into existence. Although I am still at the very beginning of my coding-career, I feel a thrill about having changed my viewpoint. Instead of looking from the outside in, now, I am up close. Creating my own projects makes me understand software on a whole new level. Being one of those magicians who is able to create products by writing code, is a dream come true. 
+While I was working for the German tech-magazine <a href="https://digitaleweltmagazin.de/"> DIGITALE WELT </a> I learned a lot about new technologies like quantum-computing. However, instead of writing about it, I actually wanted to be one of those people doing the magic and bringing the future into existence. Although I am still at the very beginning of my coding-career, I feel a thrill about having changed my viewpoint. Instead of looking from the outside in, now, I am up close. Creating my own projects makes me understand software on a whole new level. Being one of those magicians who is able to create products by writing code, is a dream come true. 
 
 ## A long way…
 

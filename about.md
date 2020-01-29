@@ -9,7 +9,7 @@ permalink: /about/
 ## What I do, when I don't code...
 *So now that you know what I currently work on, I can tell you some other things about me.*
 
-* Code for America: I am active in the San Diego Chapter of Code for America which is called  *Open San Diego*. We meet every Tuesday evening for two hours in Downtown. There we discuss and work on community projects for the city. At the moment we work on sustainability projects where we use the open-source data which are collected by San Diego's Smart City Lights. (Okay I admit it: That was code-related again. But the following points, won't be...)
+* Code for America: I am active in the San Diego Chapter of *Code for America* which is called <a href="https://opensandiego.org/"> Open San Diego </a>, where we meet every Tuesday evening for two hours in Downtown. There we discuss and work on community projects for the city. At the moment we work on sustainability projects where we use the open-source data which are collected by <a href="https://www.sandiego.gov/sustainability/energy-and-water-efficiency/programs-projects/smart-city"> San Diego's Smart City Lights </a>. (Okay I admit it: That was code-related again. But the following points, won't be...)
 
 * Theatre: My favorite play-write of all time is Henrik Ibsen. My favorite contemporary play-write is Yasmina Reza. (Reza is famous for her works "Art" and "God of Carnage".) My favorite all-time American play-write is Arthur Miller. San Diego has many theatres to offer. So far I explored "La Jolla Playhouse" and "Cygnet Theatre" in Old Town. Since I am here I already saw two plays of the contemporary play-write Lauren Yee. I liked them a lot, so I started to follow her work more. 
 
