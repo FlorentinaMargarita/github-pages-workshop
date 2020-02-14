@@ -2,10 +2,10 @@
 layout: project
 title:  Meals Count
 subtitle: Contributing to an Open Source Project 
-main_image: /assets/images/MealsCount.JPG
+main_image: /assets/images/MealsCOunt.JPG
 categories: [Vue, WebPack]
 ---
-Checkout my *theatre-quiz-project in Angular*: <https://quizmetropol.firebaseapp.com/> It was made for a theatre in Vienna, which premiered a new play called "Rock My Soul".  Despite having an English title, the play is in German. Therefore, the entire content of the page is in German as well. 
+Every Tuesday I meet with the people from <a href="https://opensandiego.org/">Open San Diego </a>, the San Diego Chapter of *Code for America*. 
 
 ## A web-app for a new musical
 What most developers tell me is that few times you join a new team and start a project from scratch. Instead, you come in and continue the work someone else had started before you (and hope, that it is well documented.) I tried to simulate this by taking the code for a quiz from one of my instructors and changed it into a multiple-choice quiz about a new musical, for a theatre in Vienna. (The story is set in the 70ies, so the quiz tests common knowledge – some of it specific to the play – about that time.) 
@@ -27,10 +27,10 @@ Creating this app was a lot of fun. Especially, because I notice how much faster
 
 ## Learnings
 
-*	How to implement custom-fonts into an Angular App
-*	Hosting on Google Firebase
-*	More in-depth understanding of the structure of an angular app.
-*	Trying new features in bootstrap like the photo-carousel
+*	How to use webpack file-loader and insert images into Vue that way
+*	Using Vue
+*	Opening a pull request in Git 
+
 
 
 
