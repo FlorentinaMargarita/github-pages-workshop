@@ -31,5 +31,7 @@ The classes took place Mondays and Wednesdays between six and ten pm. The homewo
 ## Conclusion 
 Apart from learning a whole lot of new concepts and being able to create an entire web-app after just two months of Softstack, I also really enjoyed going to class. It was a whole lot of fun, since the environment of Softstack is relaxed and welcoming. I was also lucky because apart from having amazing instructors I was also fortunate to have great classmates.
 
+This post was written for the website of Softstack. Follow the link to read it on their homepage: <https://www.softstackfactory.com/blog/2020/2/12/my-experience-taking-mean-stack-at-softstack-factory-by-florentina-hofbauer>
+
 
 
