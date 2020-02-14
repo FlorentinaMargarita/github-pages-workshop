@@ -5,24 +5,15 @@ subtitle: Contributing to an Open Source Project
 main_image: /assets/images/MealsCOunt.JPG
 categories: [Vue, WebPack]
 ---
-Every Tuesday I meet with the people from <a href="https://opensandiego.org/">Open San Diego </a>, the San Diego Chapter of *Code for America*. 
+Every Tuesday I meet with the people from <a href="https://opensandiego.org/">Open San Diego </a>, the San Diego Chapter of *Code for America*. We make civic projects for San Diego, as for example the *Meals Count Project*. Herby we’re building a web-based tool California school districts can use to optimize free meal program participation and federal reimbursement, in partnership with California Food Policy Advocates and San Diego Hunger Coalition. I could help with front end issues. 
 
-## A web-app for a new musical
-What most developers tell me is that few times you join a new team and start a project from scratch. Instead, you come in and continue the work someone else had started before you (and hope, that it is well documented.) I tried to simulate this by taking the code for a quiz from one of my instructors and changed it into a multiple-choice quiz about a new musical, for a theatre in Vienna. (The story is set in the 70ies, so the quiz tests common knowledge – some of it specific to the play – about that time.) 
+## Real world project 
+Although I had built real world projects before, I had never before worked in a team with Senior-software-developers before. So the only time I had truley pulled from Github before that was with collegues from my coding-bootcamp-cohort. Working with people who have more than twelve years of experience is amazing! I learn so much in such a short time. Since the members of 'Open San Diego' are volunteers and have dayjobs, we communicated via Slack in the mornings and in the evenings. 
 
-## Adding new components
-I added a bootstrap photo-carousel feature, for the potential audience to look at stage-photos. I put this photo gallery in a separate component. So, among many other changes, I created another header-component. I did this, because whatever is displayed in the “app.component.html” is always displayed and I now had more than one component. However, since one big change never comes alone, now I also had to implement routing for this SPA. 
+## Vue and Webpack
+Since 'Meal Count' is done with Vue and I had never used it before, I had to dedicate an entire day of watching Vue-Crashcourse-Tutorials to be able to truley help. Espcially because inserting images in Vue is a little trickier than in Angular, because one has to handle Webpack for it. Although I had touched webpack in tutorials and in class before, I also needed to refresh my knowledge on it. Especially the concept of the webpack file-loader was new to me and I had to explore it, before I could proceed. 
 
-## Styling
-As I said, the play I made the app for, is set in the 70ies. This is why I used a Google-Font which matches the time: <https://fonts.google.com/specimen/Monoton>
-For the Social Icons on the bottom of the page, I used the free icons from FontAwesome <https://fontawesome.com/>
-
-
-## Hosting on Firebase
-Since I wanted to try a new way to launch a page, I hosted it on Firebase, instead of GitHub pages. (Because I previously worked with Google Analytics, GoogleAds and because I use a Gmail-Account daily, I figured that another Google product won't hurt.) I have to say, I was impressed: Firebase works extremely fast and is easy to use!
-
-
-Creating this app was a lot of fun. Especially, because I notice how much faster I get with each new project.
+It is an amazing opportunity to improve my coding skills and at the same time work on a project which potentially can help avoid children being hungry in school. I am very happy that I found Open San Diego. 
 
 
 ## Learnings
