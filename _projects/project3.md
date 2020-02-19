@@ -15,12 +15,19 @@ Since *Meal Count* is done in Vue and I had never used Vue before, I had to dedi
 
 It is an amazing opportunity to improve my coding skills while working on something which potentially helps to avoid children going hungry in school. I am very happy that I found Open San Diego. 
 
+## Map 
+With the help of the Senior Software Developer of the team we inserted a map of the United States with the library d3 and us-atlas. We wrote some logic that the states, for which we do have existing data, fills green, while the other ones are greyed out. A
+
+## Modal 
+I wrote a new modal-component which pops up, whenever you click on a state where we don't have data for yet. 
 
 ## Learnings
 
 *   Using Vue
 *   How to use *Webpack file-loader* and insert images into Vue with it
+*   Creating modals in Vue
 *   Opening a pull request in Git 
+*   Inserting a map with us-atlas, d3 and changing the state-codes into state-abbreviations with javascript-us
 
 
 
