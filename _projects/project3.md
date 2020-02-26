@@ -21,6 +21,9 @@ With the help of the Senior Software Developer of the team we inserted a map of 
 ## Modal 
 I wrote a new modal-component which pops up, whenever you click on a state where we don't have data for yet. 
 
+## FAQ-Page
+I also created, styled and linked the FAQ page. Therefore I used <https://www.npmjs.com/package/vue-faq-accordion>. Now the answers can be toggled. 
+
 ## Learnings
 
 *   Using Vue
