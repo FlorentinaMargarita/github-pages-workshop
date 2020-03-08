@@ -26,8 +26,8 @@
                     <div class="col-12">
                         <h2>{{page.title}}</h2>
                         <span class="image"><img src="{{site.baseurl}}{{page.main_image}}" class="image fit"
-                                alt="Main Image" /></span>
-                        <em>Dec 01 2019 in {% for category in page.categories %}{{category}} {% endfor %}</em>
+                                alt="Main Image" /></span> <p>
+                        <em> category: {% for category in page.categories %}{{category}} {% endfor %}</em>
                         <hr/>
                         {{content}}
                     </div>
