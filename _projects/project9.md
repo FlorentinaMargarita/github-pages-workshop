@@ -5,7 +5,7 @@ subtitle: My Life in CSS
 main_image: /assets/images/try3.jpg
 categories: [javascript, css]
 ---
-Go to <https://flotheflower.github.io/Lebenslauf/> to see **my life in pictures**. This was the first project I ever built.
+Go to <https://FlorentinaMargarita.github.io/Lebenslauf/> to see **my life in pictures**. This was the first project I ever built.
 
 ## Trying out features in CSS
 

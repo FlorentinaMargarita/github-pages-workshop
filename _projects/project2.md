@@ -5,7 +5,7 @@ subtitle: Coding a game.
 main_image: /assets/images/matching game1.png
 categories: [node.js, javascript]
 ---
-Go to <https://flotheflower.github.io/SearchGame> to play my **smiley search game**!  
+Go to <https://FlorentinaMargarita.github.io/SearchGame> to play my **smiley search game**!  
 The **search game** is the first game I ever coded.  
 
 
