@@ -42,6 +42,7 @@ The user should press the button “check” if he/she repeated the habit that d
 
 The aim of this project was to build a habit tracking app in Python. The focus lay especially on the backend and the use of an object-oriented programming style as well a functional programming style. Although I had a good understanding of object-oriented programming, I still had to get acquainted with the concepts of functional programming. When doing the research, I understood that functional programming is built on pure functions. Pure functions have no side effects. They are completely self-contained, and they do not affect any variables outside of them. With pure functions you will always get the same output for the same input. For me, the most important aspect to understand functional programming was the insight that pure functions never read from or write to the database. 
 For this project I decided to work with a Python framework called Django. Due to the frontend capabilities of Django, the required analytics part of the project is visualized on the user interface. The first step to learn it was to read Django documentation and articles on the internet as well as to follow a couple of different YouTube-tutorials. 
+<br/>
 
 ## Technical summary
 
@@ -57,6 +58,11 @@ To implement the habit tracker and to calculate streaks, I had to define what a 
 
 Now that I have explained how this project deals with days, I will now explain how it works with weeks and how it defines them. Again, I will illustrate it, using an example: Suppose today is Wednesday. The first week which the code looks at is from last Wednesday to this Tuesday. The week starting today is not being looked at. Hence the definition of a start of the week, is whatever today is. 
 Once everything was up and running, I wrote the unit tests. Django uses its own testing framework.  It will run all the tests which are in the tests.py file. To do that, Django is creating a test-SQLite database. Django puts this testing database in memory, runs all tests and once they are completed, destroys this database out of memory. 
+
+
+
+<span class="image"><img src="{{site.baseurl}}/assets/images/habitTracker_analytics.PNG" class="image fit"
+                                alt="Main Image" /></span> 
 
 
 ## Implementation procedure in more detail
@@ -117,8 +123,5 @@ At this point only one user can utilize the habit tracker.
 It is a future project of mine to implement user authentication together with the possibility to create a user account, to allow multiple users to use the app simultaneously. 
 
 
-
-<span class="image"><img src="{{site.baseurl}}/assets/images/habitTracker_analytics.PNG" class="image fit"
-                                alt="Main Image" /></span> 
 
 
