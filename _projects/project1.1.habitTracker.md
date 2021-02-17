@@ -38,10 +38,12 @@ The user should press the button “check” if he/she repeated the habit that d
 <span class="image"><img src="{{site.baseurl}}/assets/images/habitTracker_new.PNG" class="image fit"
                                 alt="Habit Tracker" /></span> 
 
-## Summary
+## The aim of this project
 
 The aim of this project was to build a habit tracking app in Python. The focus lay especially on the backend and the use of an object-oriented programming style as well a functional programming style. Although I had a good understanding of object-oriented programming, I still had to get acquainted with the concepts of functional programming. When doing the research, I understood that functional programming is built on pure functions. Pure functions have no side effects. They are completely self-contained, and they do not affect any variables outside of them. With pure functions you will always get the same output for the same input. For me, the most important aspect to understand functional programming was the insight that pure functions never read from or write to the database. 
 For this project I decided to work with a Python framework called Django. Due to the frontend capabilities of Django, the required analytics part of the project is visualized on the user interface. The first step to learn it was to read Django documentation and articles on the internet as well as to follow a couple of different YouTube-tutorials. 
+
+## Technical summary
 
 The example tracking data which can be used to run the tests in the project are stored in a json file called “data fixtures”. This data can be used twofold: On one hand the data fixtures can be used to populate the database (SQLite3) which comes out of the box with Django. (This was very handy during development, because I could test different functions on the example data, without manually having to rewrite them to the database.) On the other hand, the data fixtures are used for testing as follows: In the test file the data is loaded into a database, on which you can run the tests. However, once the tests are run and results are obtained this testing-database will be automatically deleted, but more on this later.
 
@@ -57,7 +59,7 @@ Now that I have explained how this project deals with days, I will now explain h
 Once everything was up and running, I wrote the unit tests. Django uses its own testing framework.  It will run all the tests which are in the tests.py file. To do that, Django is creating a test-SQLite database. Django puts this testing database in memory, runs all tests and once they are completed, destroys this database out of memory. 
 
 
-## Implementation procedure 
+## Implementation procedure in more detail
 #### The function “home”:
 
 * For each habit, the program computes how often it was checked
