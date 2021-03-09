@@ -37,12 +37,40 @@ The learnings I took away from the project in this step were the following:
 <br>
 
 
+### Here are some funny queries I wrote for my DataMart
+
+--Querying the friendliest host
+
+<span class="image"><img src="{{site.baseurl}}/assets/images/friendliestHost.png" class="image fit"
+                                alt="Main Image" /></span> 
+
+
+--Querying hostnames from worst to best reviewed 
+
+<span class="image"><img src="{{site.baseurl}}/assets/images/hostRank.png" class="image fit"
+                                alt="Main Image" /></span> 
+
+
+--Querying the most expensive place per city for a week, sorted descending 
+
+<span class="image"><img src="{{site.baseurl}}/assets/images/mostExpensive.png" class="image fit"
+                                alt="Main Image" /></span> 
+
+
+
+--Querying a host in Stockholm who has average_stars rating greater than 3 and a dryer. 
+
+<span class="image"><img src="{{site.baseurl}}/assets/images/hostStockholm.png" class="image fit"
+                                alt="Main Image" /></span> 
+
+
+
 <br>
 
 
 
 
-### If anyone is interested: Here is the Data Dictionary for the initial ERM-Diagram
+###  Here is the Data Dictionary for the initial ERM-Diagram
 
 *Entity: Availability*
 AvailabilityId (PK): Int
