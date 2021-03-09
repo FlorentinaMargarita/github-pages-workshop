@@ -30,12 +30,21 @@ The learnings I took away from the project in this step were the following:
 *	Single quotes and double quotes have a different meaning in PostgreSQL. Single quotes indicate strings. Double quotes are used to denote identifiers. If, for example, I want to start a table name with a capital letter, I will have to wrap it in double quotes. (However, if I start it with a lowercase letter that is not necessary.) On the other hand, if I want to insert a name value, I will do that with single quotes like so: ‘Mary’.
 *	After you already implemented the foreign keys, deleting one row will mean, deleting many other rows which are hooked to it by a parent/child relationship.
 *	To delete the database completely (which I did for one of my test runs), it was necessary to disconnect the database from the server first, to then be able to delete it. 
+*	To make an ER-Diagram in the beginning and thinking the entire process through before jumping right into building the DataMart, was extremely helpful. Thanks to this project I learned to appreciate the advantages of ER-diagrams. Although I found certain flaws which I overlooked in the first draft of the diagram, while implementing the DataMart, it was extremely helpful as a basis of the project. 
+*	I learned that with using the “Backup”-function in PGAdmin 4 you can automatically generate an installation file. 
+*	This project helped me to better understand the concept of normalization. That, what should be avoided, is to have the same item in a table column by column. I could have probably normalized the data some more, as for example, instead of always using the same entries in “property type”, I could have assigned each property type to a number in a different table and then just writing the corresponding number, instead of writing the property type again and again. That would have saved some storage capacities.
+*	I also learned that I can only drop a database when I first disconnect it from the server. Otherwise, it will not work. 
+
 
 <span class="image"><img src="{{site.baseurl}}/assets/images/psql.png" class="image fit"
                                 alt="Main Image" /></span> 
 
 <br>
 
+### MetaData
+The data mart can store 20 different entities. The dummy data consists of 20 entries per table/entity. 
+
+<br>
 
 ### Here are some funny queries I wrote for my DataMart
 
