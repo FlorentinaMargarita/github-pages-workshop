@@ -6,6 +6,9 @@ main_image: /assets/images/habitTracker.PNG
 categories: [Django, Python, SQLite]
 ---
 Check out the *Habit Tracker* here: <https://habit-tracker-by-florentina.herokuapp.com/>
+    <br>
+Here is the code on GitHub: <https://github.com/FlorentinaMargarita/HabitTracker-with-Functional-Programming>
+
 
 *Habit Tracker* was my first project written in Django. 
 
