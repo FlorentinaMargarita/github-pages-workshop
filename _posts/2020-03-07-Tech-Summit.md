@@ -5,7 +5,7 @@ subtitle: Celebrating Women’s day
 date: 2020-03-07 10:14:43 -0800
 main_image: /assets/images/Women Summit3.jpg
 author: Florentina
-categories: [network is net worth]
+categories: [learning]
 ---
 
 Even it took place on the 7th of March, so one day before the actual International Women’s Day, the attendees, organizers and speakers of the San Diego Tech Women’ summit, celebrated it early. 
